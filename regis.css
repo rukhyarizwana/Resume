@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    padding-bottom:20px;
+}
+#main-container{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px 50px 20px 50px;
+    width: 1000px;
+   
+}
+#p{
+    margin: 5px;
+}
+#gender{
+    margin-left:30px;
+    padding-bottom: 1rem;
+}
