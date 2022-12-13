@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- links -->
+    <link rel="stylesheet" href="css/resumeForm.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Registration Page</title>
+</head>
+<body>
+
+
+
+    <div class="container" id="main-container">
+        <h3>RESUME FORM</h3>
+        <h5 style="margin-bottom: 20px;">Personal Details</h5>
+  
+      <div class="row g-3 align-items-center">
+        <div class="row g-2">
+          <!-- 1 -->
+          <div class="row">
+            <div class="col" id="firstname">
+              <input id="input_name" type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <!-- <div class="col" id="lastname">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div> -->
+        </div>
+        <!-- 2 -->
+        <div class="row">
+          <div class="col" id="e">
+            <input id="input_email" type="text" class="form-control" placeholder=" Email" aria-label=" Email">
+          </div>
+          <div class="col" id="c">
+            <input id="input_contact" type="text" class="form-control" placeholder="Contact Number" aria-label="Contact" Number>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="row">
+          <div class="col" id="a">
+            <input id="input_address" type="text" class="form-control" placeholder="Address" aria-label="Address">
+          </div>
+          
+        </div>
+      </div>
+         
+        <!-- Qualification Details -->
+        <h5 style="margin-bottom: 20px;">Qualification Details</h5>
+        <!-- quali test -->
+        <div class="row">
+          <div class="col">
+            <label for="10th"><h6>10th CGPA:</h6></label>
+            <input type="text" class="form-control" id="10th" placeholder="" aria-label="">
+          </div>
+          <div class="col">
+            <label for="12th"><h6>12th CGPA:</h6></label>
+            <input type="text" class="form-control" id="12th" placeholder="" aria-label="">
+          </div>
+          <div class="col">
+            <label for="ug"><h6>U.G CGPA:</h6></label>
+            <input type="text" class="form-control" id="ug" placeholder="" aria-label="">
+          </div>
+        </div>
+         <!-- quali test end-->
+       <h5>Skills</h5>
+       <input type="text" class="form-control" id="s" placeholder="Enter your skills" aria-label="">
+       <h5>Hobbies</h5>
+       <input type="text" class="form-control" id="h" placeholder="Enter your hobbies" aria-label="">
+        <!--button -->
+        <button type="button" class="btn btn-primary" id="btn">Submit</button>
+     </div>  
+  
+  
+     <!-- output div -->
+     <div class="sub-div" id="div" style="visibility: hidden; border: 2px solid green; padding: 50px;">
+      
+      <h1 id="name">Shaik Rukhya Rizwana</h1>
+    <p id="mobile"> +91 6304613166 </p>
+    <p id="email">rukhyarizwana0077@gmail.com</p>
+  <br>
+  <h3>OBJECTIVE</h3>
+  <hr>
+  <p>To associate myself with an esteemed organization where I can utilize my technical interpersonal
+  skills in contributing effectively towards the growth of the organization that offers me professional
+  growth while being resourceful, innovative and flexible.</p>
+  <h3>EDUCATION</h3>
+  <hr>
+    <p>10th CGPA: <span id="10"></span></p>
+    <p>12th CGPA: <span id="12"></span></p>
+    <p>U.G CGPA: <span id="ug_resume"></span></p>
+  
+  <h3>Skills</h3>
+  <ul><li id="skills"></li></ul>
+  <hr>
+  
+  <h4 >Hobbies:</h4>
+  <ul><li id="hobbies">Reading Books</li></ul>
+  
+  <h3 id="declaration">DECLARATION</h3>
+  <hr>
+    <p>I do hereby state that all the details mentioned above are accurate to the best of my familiarity and confidence. I bear the accountability for any blunder or mistake in the future. </p>
+  </div>
+
+
+
+
+
+
+<script src="js/resumeForm.js"></script>
+</body>
+</html>
